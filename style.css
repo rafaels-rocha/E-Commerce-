@@ -5,12 +5,12 @@
 }
 
 body{
-    background-color: #252525;
+    background-color: #252525 !important;
     color: #FFF;
 }
 
 .primary-bg-color{
-    background-color: #252525;
+    background-color: #252525 !important;
 }
 
 .secondary-bg-color{
@@ -18,12 +18,12 @@ body{
 }
 
 .light-bg-color{
-    background-color: #FCF5EB;
+    background-color: #FCF5EB !important;
 
 }
 
 .dark-bg-color{
-    background-color: #101010;
+    background-color: #101010 !important;
 }
 
 .primary-color{
@@ -108,7 +108,7 @@ body{
 
 @media (min-width: 768px) {
     #search-form{
-        min-width: 50%;
+       width: 50%;
         margin: 0;
     }
 }
@@ -132,3 +132,54 @@ body{
 #search-form input::placeholder{
     color: #FFF;
 }
+
+/* BOTTOM NAVBAR */
+
+#bottom-navbar-container .container{
+    justify-content: flex-end;
+
+}
+
+#bottom-navbar-container a{
+    font-weight: 600;
+    color: #FFF;
+}
+
+.navbar-toggle{
+    font-size: 1.5em;
+}
+
+/* BANNERS */
+
+#banners-container{
+    padding: 0;
+
+}
+
+.carousel-caption{
+    bottom: 5em;
+    padding: 1em;
+    left: 12%;
+    right: 12%;
+}
+
+.carousel-caption h5{
+    font-size: 1.8em;
+
+}
+
+@media (min-width: 768px) {
+    #slider .carousel-item,
+    #slider img{
+        height: 600px;
+    }
+    .carousel-caption{
+        left: 23%;
+        right: 23%;
+    }
+    .carousel-caption h5{
+        font-size: 3em;
+    
+    }
+}
+
