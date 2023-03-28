@@ -183,3 +183,125 @@ body{
     }
 }
 
+/* Mini banners */
+
+#mini-banners {
+    margin-top: -3em;
+    z-index: 10;
+
+}
+
+#mini-banners .col-12{
+    z-index: 1;
+    height: 300px;
+    padding: 1.5em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+@media(min-width: 768px){
+    #mini-banners .col-12{
+        max-width: 30%;
+    }
+}
+
+#mini-banners .col-12 h2{
+    text-transform: uppercase;
+    max-width: 50px;
+    font-size: 2.2em;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+#mini-banners .col-12 img{
+    height: 220px;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+
+#mini-banners .col-12 a{
+    font-weight: bold;
+    color: #FFF;
+    font-size: .8em;
+    transition: 0.5s;
+}
+
+#mini-banners #mini-banners-3 a{
+    color: #101010;
+}
+
+
+#mini-banners .col-12 a:hover{
+    color: #101010;
+}
+
+#mini-banners #mini-banners-1 a:hover,
+#mini-banners #mini-banners-3 a:hover{
+    color: #c09578;
+}
+
+/* BEST SELLERS */
+
+#best-selles{
+    padding: 4em 0;
+}
+
+#best-selles .row {
+    padding: 0;
+}
+
+#best-selles .col-md-3{
+    padding: 0
+    ;
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+@media(min-width: 768px){
+    .title{
+        text-align: left;
+    }
+}
+
+.card{
+    text-align: center;
+    border-radius: 0;
+
+}
+
+.card img{
+    width:140px ;
+    margin: 2em auto;
+
+}
+
+.card .car-category{
+    font-size:0.8em;
+}
+
+.card .car-text{
+    margin: 2em 0;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: transparent  !important;
+    border-color: #c09578 !important;
+    
+}
+
+.btn:hover  {
+
+    background-color: #C09578 !important; 
+    border-color: #c09578;
+}
